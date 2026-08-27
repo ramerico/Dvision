@@ -148,7 +148,7 @@ img{max-width:100%;display:block}
 @keyframes badgeFloat{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
 @keyframes pulse{0%,100%{box-shadow:0 0 0 0 rgba(50,168,82,.25)}50%{box-shadow:0 0 0 8px rgba(50,168,82,0)}}
 @media(max-width:900px){
-  .menu{display:none;position:absolute;top:82px;left:4%;right:4%;background:#fff;color:var(--wine);padding:22px;border-radius:18px;box-shadow:var(--shadow);flex-direction:column;align-items:stretch}
+  .menu{display:none;position:absolute;top:82px;left:4%;right:4%;background:#650018;color:var(--wine);padding:22px;border-radius:18px;box-shadow:var(--shadow);flex-direction:column;align-items:stretch}
   .menu.open{display:flex}.menu-toggle{display:grid;gap:5px}.menu-toggle span{display:block;width:25px;height:2px;background:#fff}
   .hero{min-height:auto}.hero-grid{grid-template-columns:1fr;padding-top:145px}.hero-copy{padding-bottom:0}.hero-character{height:500px;margin-top:-30px}.hero-character img{max-width:600px}.call-badge{right:8%;bottom:45px}
   .ticker{overflow:hidden;white-space:nowrap;justify-content:flex-start}.ticker span:nth-of-type(n+4),.ticker i:nth-of-type(n+4){display:none}
